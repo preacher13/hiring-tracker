@@ -1,0 +1,240 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containers{
+	margin: 20px;
+}
+
+.login-container{
+	background-color: #D7CFFF;
+}
+
+.login-content{
+	background-color: #ffd11a;
+	margin-top: 30px;
+	padding: 20px 10px 10px 10px;
+	box-sizing: border-box;
+	border: 1px solid #66ccff;
+	margin-bottom: 10px;
+}
+
+form{
+	margin-top: 20px;
+}
+
+h5{
+	text-align: center;
+}
+
+::placeholder{
+	text-align: center;
+}
+
+
+table th{
+	text-align: center;
+}
+
+.details-content{
+	background-color: #ccc;
+	padding: 15px;
+}
+
+.label{
+	font-weight: bold;
+	width: 200px;
+}
+
+.inner-form{
+	padding: 15px;
+}
+
+.form-input{
+	border: 1px solid #ccc;
+	border-left: 6px solid #800000;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.form-button{
+	position: relative;
+	left: 1000px;
+}
+
+html
+{
+  background-color: antiquewhite;
+  color: black;
+  font-family:'Ubuntu','Arial',sans-serif;
+  font-weight: 200;
+  font-size:30px;
+  text-rendering: optimizeLegibility;
+}
+.btn-full:link,
+.btn-full:visited,
+input[type=submit]
+{
+    background-color: #ff9300;
+    border: 1px solid #ff9301;
+    margin: right 10px;
+}
+.add:link,
+.add:visited
+{
+    border-radius: 35px;
+    float: right;
+    background-color: #99e540;
+    border: 1px solid #ff9301;
+}
+.btn-ghost:link,
+.btn-ghost:visited
+{
+    background-color: #ff9300;
+    border: 1px solid #ff9301;
+}
+.btn-full:hover,
+.btn-full:active,
+input[type=submit]:hover,
+input[type=submit]:active
+{
+    background-color: #00ff00;
+}
+.add:hover,
+.add:active,
+input[type=submit]:hover,
+input[type=submit]:active
+{
+    background-color: #00ff00;
+}
+.btn-ghost:hover,
+.btn-ghost:active
+{
+    background-color: #00ff00;
+}
+ table {
+ border-collapse: collapse;
+  width: 100%;
+  border: 2px solid black;
+}
+td
+{
+    margin-left: 50%;
+   border: 2px solid black;
+}
+th
+{
+    height: 50px;
+    color: white;
+    border: 2px solid black;
+    background-color: #6a2e14;
+}
+td
+{
+     padding: 15px;
+  text-align: left
+}
+.stat
+{
+    background-color: #ff7575
+}
+.He
+{
+    margin-left: 30%;
+}
+.stat2
+{
+    background-color: palegoldenrod;
+}
+tr:nth-child(even) {background-color: #e6e6e6;}
+.search
+{
+    margin-left: 5%;
+    tab-size: 20px;
+    border-radius: 35px;
+}
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+.tab1
+{
+    font-size: 20px;
+}
+.hitra
+{
+    margin-left: 50%
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=text] {
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+.row label {
+  display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: left;
+}
+
+.row input {
+
+  clear: both;
+}
+.submit
+{
+    margin-left: 4%;
+    background-color: orange;
+    font-size: 40px;
+}

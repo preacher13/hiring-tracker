@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hiring Tracker</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+    <h1>Hiring request form</h1>
+<form class="form-container containers">
+  <div class="row">
+    <div class="inner-form col-sm-6">
+
+        <div class="form-group">
+          <label for="projectname" class="label">Project Name</label>
+          : <select id="projectname" class="form-input col-6">
+            <option value=""></option>
+            <option value="project1">Project 1</option>
+            <option value="project2">Project 2</option>
+            <option value="project3">Project 3</option>
+            </select>
+        </div>
+        <div class="form-group">
+          <label for="projectmanager" class="label">Project Manager</label>
+          : <input type="text" name="projectmanager" id="projectmanager" class="form-input col-6">
+        </div>
+        <div class="form-group">
+          <label for="resources" class="label">No. of Resources</label>
+          : <input type="number" name="resources" id="resources" class="form-input col-6">
+        </div>
+        <div class="form-group">
+          <label for="designation" class="label">Designation</label>
+          : <input type="text" name="designation" id="designation" class="form-input col-6">
+        </div>
+        <div class="form-group">
+          <label for="status" class="label">Status</label>
+          : <select id="status" class="form-input col-6">
+            <option value="open">Open</option>
+            <option value="project1">New </option>
+            </select>
+        </div>
+        <div class="form-group">
+          <label for="min-experience" class="label">Minimum Experience</label>
+          : <input type="text" name="min-experience" id="min-experience" class="form-input col-2"> years
+        </div>
+        <div class="form-group">
+          <label for="max-experience" class="label">Maximum Experience</label>
+          : <input type="text" name="max-experience" id="max-experience" class="form-input col-2"> years
+        </div>
+        <div class="form-group">
+          <label for="type" class="label">Status</label>
+          : <select id="type" class="form-input col-6">
+            <option value=""></option>
+            <option value="New">New</option>
+            <option value="replacement">Replacement</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="inner-form col-sm-6">
+      <div class="form-group">
+          <label for="skills" class="label">Required Skills</label>
+          : <input type="text" name="skills" id="skills" class="form-input col-6">
+      </div>
+      <div class="form-group">
+          <label for="duration" class="label">Duration</label>
+          : <input type="text" name="duration" id="duration" class="form-input col-2"> years
+          <input type="text" name="duration" id="duration" class="form-input col-2"> months
+      </div>
+      <div class="form-group">
+          <label for="conversion" class="label">Probability of conversion</label>
+          : <input type="text" name="conversion" id="conversion" class="form-input col-6">
+      </div>
+      <div class="form-group">
+          <label for="salary" class="label">Salary Range</label>
+          : <input type="text" name="salary" id="salary" class="form-input col-2"> min
+           <input type="text" name="salary" id="salary" class="form-input col-2"> max
+      </div>
+      <label class="label text-info">Hiring Team Accessible Fields:</label><br>
+      <div class="form-group">
+          <label for="poc" class="label">Point of Contact</label>
+          : <input type="text" name="poc" id="poc" class="form-input col-6">
+      </div>
+      <div class="form-group">
+          <label for="hiring-status" class="label">Hirirng Status</label>
+          : <input type="text" name="hiring-status" id="hiring-status" class="form-input col-6">
+      </div>
+      <div class="form-group">
+          <label for="hr-comments" class="label">HR Comments</label>
+          : <input type="text" name="hr-comments" id="hr-comments" class="form-input col-6">
+      </div>
+    </div>
+  </div>
+<style>
+float: right;
+</style>
+  <button type="submit" formaction="table.html">Submit</button>
+</form>
+
+	<script type="text/javascript" src="java/jQuery.js"></script>
+
+</div>
+  </body>
+</html>
